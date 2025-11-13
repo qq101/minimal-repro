@@ -16,7 +16,8 @@ function createWindow () {
   mainWindow.loadFile('index.html')
 
   // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+  // 打开开发者工具以方便调试
+  mainWindow.webContents.openDevTools()
 }
 
 // This method will be called when Electron has finished
